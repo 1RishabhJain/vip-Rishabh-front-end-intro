@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
+  /* Light theme colors */
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Dark text */
+}
+
+/* Dark theme colors */
+.dark-theme {
+  background-color: #000000; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
+.dark-theme header, .dark-theme h1, .dark-theme h2, .dark-theme p {
+    color: #ffffff;
+  }
+
+/* Style for the button */
+#theme-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.centred {
+  align-items: center;
+}
+
+header {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.headshot {
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+.bio {
+  max-width: 600px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.section {
+  flex: 1;
+  margin: 0 10px 20px;
+}
